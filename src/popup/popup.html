@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Domain Blocker</h1>
+    
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="toggleBlocking" checked>
+        <span class="slider"></span>
+      </label>
+      <span id="status">Active</span>
+    </div>
+
+    <div class="add-domain">
+      <input type="text" id="domainInput" placeholder="Enter domain (e.g., example.com)">
+      <button id="addButton">Add</button>
+    </div>
+
+    <div class="domain-list">
+      <h3>Blocked Domains</h3>
+      <div id="domainList"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

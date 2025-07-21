@@ -1,0 +1,12 @@
+dist/
+node_modules/
+*.min.js
+*.min.css
+coverage/
+.git/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
